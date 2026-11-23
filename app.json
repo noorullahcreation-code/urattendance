@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "United Rubber Attendance",
-    "slug": "united-rubber-attendance",
+    "slug": "ur-attendance",
+    "owner": "noorullah85",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,9 +18,7 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "package": "com.unitedrubber.attendance",
-      "permissions": [
-        "RECORD_AUDIO"
-      ]
+      "permissions": ["RECORD_AUDIO"]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -36,6 +35,11 @@
           ]
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7a411514-d751-4c43-8a8e-a4c48d361445"
+      }
+    }
   }
 }
